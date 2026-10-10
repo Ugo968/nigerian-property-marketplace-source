@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
-import { updatePlatformSettingAction } from "@/lib/admin";
+import { updatePlatformSettingAction } from "@/lib/admin/actions";
 import type { PlatformSettingRow, ReportCategoryRow } from "@/types";
 
 interface Props {

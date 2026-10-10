@@ -12,7 +12,7 @@ import {
   reactivateUserAction,
   banUserAction,
 } from "@/lib/admin/actions";
-import type { AdminUserDetail } from "from "@/lib/admin/actions"";
+import type { AdminUserDetail } from "@/lib/admin/actions";
 import type { AdminActionRecordRow } from "@/types";
 
 interface Props {
