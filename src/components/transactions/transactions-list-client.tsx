@@ -10,7 +10,7 @@ import { EmptyState } from "@/components/ui/feedback";
 import {
   TRANSACTION_STATUS_LABELS,
   isActiveStatus,
-} from "@/lib/transactions";
+} from "@/lib/transactions/state-machine";
 import type { TransactionRow } from "@/types";
 import { StatusBadge } from "@/components/admin/admin-table";
 

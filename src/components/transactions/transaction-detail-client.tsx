@@ -18,7 +18,8 @@ import {
   forwardPathIndex,
   isTerminalStatus,
   isActiveStatus,
-} from "@/lib/transactions";
+} from "@/lib/transactions/state-machine";
+
 import {
   scheduleInspectionAction,
   confirmInspectionAction,
@@ -31,7 +32,7 @@ import {
   withdrawOfferAction,
   completeTransactionAction,
   cancelTransactionAction,
-} from "@/lib/transactions";
+} from "@/lib/transactions/actions";
 import type {
   TransactionRow,
   TransactionParticipantRow,
