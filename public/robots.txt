@@ -1,0 +1,60 @@
+# Shelty robots.txt
+# Public pages are crawlable. Private/authenticated pages are disallowed.
+
+User-agent: Googlebot
+Allow: /
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /onboarding
+Disallow: /checkout
+Disallow: /api
+Disallow: /verify-email
+Disallow: /reset-password
+Disallow: /forgot-password
+Disallow: /account-suspended
+Disallow: /forbidden
+
+User-agent: Bingbot
+Allow: /
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /onboarding
+Disallow: /checkout
+Disallow: /api
+Disallow: /verify-email
+Disallow: /reset-password
+Disallow: /forgot-password
+Disallow: /account-suspended
+Disallow: /forbidden
+
+User-agent: Twitterbot
+Allow: /
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /onboarding
+Disallow: /checkout
+Disallow: /api
+
+User-agent: facebookexternalhit
+Allow: /
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /onboarding
+Disallow: /checkout
+Disallow: /api
+
+User-agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /onboarding
+Disallow: /checkout
+Disallow: /api
+Disallow: /verify-email
+Disallow: /reset-password
+Disallow: /forgot-password
+Disallow: /account-suspended
+Disallow: /forbidden
+
+# Sitemap (configured when the production domain is set)
+# Sitemap: https://naijahaus.example/sitemap.xml
