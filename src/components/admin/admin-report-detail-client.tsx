@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { StatusBadge } from "./admin-table";
-import { setReportStatusAction } from "@/lib/admin";
+import { setReportStatusAction } from "@/lib/admin/actions";
 import { useToast } from "@/hooks/use-toast";
 import type { ReportRow, AdminActionRecordRow } from "@/types";
 

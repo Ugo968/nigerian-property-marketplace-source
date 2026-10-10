@@ -9,7 +9,7 @@ import { ConfirmDialog } from "./confirm-dialog";
 import {
   approvePromotionAction,
   rejectPromotionAction,
-} from "@/lib/admin";
+} from "@/lib/admin/actions";
 import { useToast } from "@/hooks/use-toast";
 
 interface PromotionRow {

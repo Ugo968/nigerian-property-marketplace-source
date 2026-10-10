@@ -10,7 +10,7 @@ import {
   approveCampaignAction,
   rejectCampaignAction,
   pauseCampaignAction,
-} from "@/lib/admin";
+} from "@/lib/admin/actions";
 import { useToast } from "@/hooks/use-toast";
 
 interface CampaignRow {

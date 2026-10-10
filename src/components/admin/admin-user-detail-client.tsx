@@ -11,8 +11,8 @@ import {
   suspendUserAction,
   reactivateUserAction,
   banUserAction,
-} from "@/lib/admin";
-import type { AdminUserDetail } from "@/lib/admin";
+} from "@/lib/admin/actions";
+import type { AdminUserDetail } from "from "@/lib/admin/actions"";
 import type { AdminActionRecordRow } from "@/types";
 
 interface Props {

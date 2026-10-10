@@ -12,7 +12,7 @@ import {
   rejectCampaignAction,
   pauseCampaignAction,
   suspendAdvertiserAction,
-} from "@/lib/admin";
+} from "@/lib/admin/actions";
 import { useToast } from "@/hooks/use-toast";
 import type { AdminActionRecordRow } from "@/types";
 

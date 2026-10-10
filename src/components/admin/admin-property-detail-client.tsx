@@ -11,7 +11,7 @@ import {
   suspendPropertyAction,
   removePropertyAction,
   restorePropertyAction,
-} from "@/lib/admin";
+} from "@/lib/admin/actions"
 import type { AdminActionRecordRow } from "@/types";
 
 interface Props {

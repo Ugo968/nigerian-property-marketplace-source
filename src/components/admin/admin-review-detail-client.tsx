@@ -11,7 +11,7 @@ import {
   hideReviewAction,
   removeReviewAction,
   restoreReviewAction,
-} from "@/lib/admin";
+} from "@/lib/admin/actions"
 
 interface Props {
   review: {
