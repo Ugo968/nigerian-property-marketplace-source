@@ -10,7 +10,7 @@ import {
   categorySupportsFrequency,
   getNotificationTypeConfig,
   NOTIFICATION_TYPES,
-} from "@/lib/notifications";
+} from "@/lib/notifications/types";
 import type {
   NotificationCategory,
   NotificationPreferenceRow,
