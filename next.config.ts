@@ -58,7 +58,7 @@ function buildCsp(): string {
     "default-src 'self'",
     `connect-src ${connectSources}`,
     "style-src 'self' 'unsafe-inline'",
-    "script-src 'self'",
+    "script-src 'self' 'unsafe-inline'",
     "img-src 'self' data: blob: https:",
     "font-src 'self' data:",
     "frame-ancestors 'none'",
