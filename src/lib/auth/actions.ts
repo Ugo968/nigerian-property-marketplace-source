@@ -397,11 +397,11 @@ export async function resendVerificationAction(
     return { ok: false, message: "Authentication is not configured." };
   }
 
-  const { error } = await supabase.auth.resend({
+    const { error } = await supabase.auth.resend({
     type: "signup",
     email,
     options: {
-      emailRedirectTo: `${(await headers()).get("host") ?? ""}/login`,
+      emailRedirectTo: "https://shelty.ng/auth/confirm",
     },
   });
 
