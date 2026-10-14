@@ -406,12 +406,20 @@ export async function resendVerificationAction(
   });
 
   if (error) {
-    // Don't reveal whether the email exists. Same message for all errors.
-    return {
-      ok: false,
-      message: "We couldn't send a verification email. Please try again later.",
-    };
-  }
+  logger.warn("Supabase resend verification request failed", {
+    errorName: error.name,
+    errorMessage: error.message,
+    errorStatus: "status" in error ? error.status : undefined,
+    errorCode: "code" in error ? error.code : undefined,
+  });
+
+  return {
+    ok: false,
+    message: "We couldn't send a verification email. Please try again later.",
+  };
+}
+
+logger.info("Supabase accepted resend verification request");
 
   return {
     ok: true,
